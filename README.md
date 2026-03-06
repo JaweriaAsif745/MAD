@@ -1,5 +1,6 @@
-**Lab 2: Introduction to Dart Data Types and Operators
-Objective**
+**Lab 2: Introduction to Dart Data Types and Operators**
+
+**Objective**
 To understand the basic concepts of the Dart programming language, including its data types and different types of operators used in programming.
 ________________________________________
 **Introduction**

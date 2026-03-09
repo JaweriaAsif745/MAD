@@ -1,4 +1,6 @@
-**LAB 3: Types of Cloud**
+
+
+> **LAB 3: Types of Cloud**
 
 **Types of Cloud**
 

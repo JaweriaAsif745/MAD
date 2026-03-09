@@ -6,17 +6,16 @@
 
 Description: Services are available to the general public over the internet. Resources are shared among multiple users, and you pay only for what you use.
 **Examples:**
-
-o	AWS (Amazon Web Services) – Offers compute (EC2), storage (S3), databases, and more.
+      o	AWS (Amazon Web Services) – Offers compute (EC2), storage (S3), databases, and more.
 **2.	Private Cloud**
 Description: Cloud infrastructure is dedicated to a single organization. Data and services are hosted either on-premises or in a private data center. It provides higher security and control.
 **Examples:**
-o	VMware vSphere / vCloud – Lets a company create its own private cloud environment on its servers.
+      o	VMware vSphere / vCloud – Lets a company create its own private cloud environment on its servers.
 **3.	Hybrid Cloud**
 Description: Combines public and private clouds, allowing workloads to move between them. Provides flexibility, scalability, and better cost efficiency.
 
 **Examples:**
-o	Microsoft Azure + On-Premises Servers: A company stores sensitive data on its private servers but uses Azure public cloud when more computing power is needed.
+      o	Microsoft Azure + On-Premises Servers: A company stores sensitive data on its private servers but uses Azure public cloud when more computing power is needed.
 **Lab Tasks:**
 
 Task 01 instructions: Public Cloud Simulation (Google Drive Activity)

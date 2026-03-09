@@ -1,39 +1,46 @@
-**Lab 1:  First Virtual Machine**
+**LAB 3: Types of Cloud**
 
-**Objective**
+**Types of Cloud**
 
-To understand the concept of virtualization and create the first virtual machine using VirtualBox or VMware.
+**1.	Public Cloud**
 
-**Virtualization**
+Description: Services are available to the general public over the internet. Resources are shared among multiple users, and you pay only for what you use.
+**Examples:**
 
-Virtualization is a technology that allows a single physical computer to run multiple operating systems at the same time. These operating systems run inside isolated environments called Virtual Machines (VMs).
-Each VM behaves like a separate computer with its own CPU, memory, storage, and network interface. The physical system running the virtualization software is called the Host System, while the operating system running inside the virtual machine is called the Guest System.
-Virtualization platforms such as VirtualBox and VMware provide virtual hardware including virtual processors, memory, hard drives, and network adapters. This allows users to test operating systems, run servers, or experiment with software safely without affecting the main system.
-Ubuntu Server is commonly used in virtual labs because it is lightweight, secure, and widely used for server environments.
+o	AWS (Amazon Web Services) – Offers compute (EC2), storage (S3), databases, and more.
+**2.	Private Cloud**
+Description: Cloud infrastructure is dedicated to a single organization. Data and services are hosted either on-premises or in a private data center. It provides higher security and control.
+**Examples:**
+o	VMware vSphere / vCloud – Lets a company create its own private cloud environment on its servers.
+**3.	Hybrid Cloud**
+Description: Combines public and private clouds, allowing workloads to move between them. Provides flexibility, scalability, and better cost efficiency.
 
-**Lab Tasks**
+**Examples:**
+o	Microsoft Azure + On-Premises Servers: A company stores sensitive data on its private servers but uses Azure public cloud when more computing power is needed.
+**Lab Tasks:**
 
-1.	Install VirtualBox or VMware Workstation.
-2.	Download the Ubuntu Server 22.04 LTS ISO.
-3.	Create a new Virtual Machine named Fast-Lab-1.
-4.	Configure the VM with the following settings:
-o	RAM: 2 GB
-o	CPU: 1 Processor
-o	Disk Size: 20 GB
-5.	Mount the Ubuntu ISO file in the virtual machine.
-6.	Start the VM and begin the Ubuntu installation.
-7.	Select a minimal installation option.
-8.	Create a user with the following credentials:
-Username: student
-Password: pass123
-9.	Complete the installation and reboot the VM.
-    
-**Discussion Questions**
+Task 01 instructions: Public Cloud Simulation (Google Drive Activity)
+•	Open Google Drive.
+•	Create a folder named (Public_Cloud_Lab)
+•	Upload any file (e.g., your CV or a text file).
+•	Right-click → Get Link → Change access to:
+Anyone with the link → Viewer
+•	Copy link and test it in Incognito mode.
+•	Take Screenshots of every step and paste them here
+Learning:
+This simulates Public Cloud because anyone with the link can access it.
+Task 02: Private Cloud Simulation (Restricted Sharing)
+1.	In the same folder:
+o	Change access to Restricted
+2.	Share it with only one specific classmate email.
+3.	Ask that classmate to confirm access.
+4.	Take screenshot of sharing settings.
+Learning:
+This simulates Private Cloud access control.
+Task 03:  Draw a hybrid cloud diagram showing which parts are public vs private.
 
-1.	What is the difference between a Host Operating System and a Guest Operating System?
-2.	Why is virtualization used instead of installing multiple operating systems directly on hardware?
-3.	Which hardware resources are shared between the host and the guest system?
+**Theory Questions:**
+1.	Give one example of public, private, and hybrid cloud.
+2.	Why would a company prefer a private cloud?
 ________________________________________
-
-
 
